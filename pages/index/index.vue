@@ -3,6 +3,9 @@
 		<image class="logo" src="/static/logo.png"></image>
 		<view class="text-area">
 			<text class="title">{{title}}</text>
+			<uni-badge size="small" :text="100" absolute="rightBottom" type="primary">
+	<button type="default">右下</button>
+</uni-badge>
 		</view>
 	</view>
 </template>
